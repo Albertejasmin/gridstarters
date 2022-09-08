@@ -24,7 +24,7 @@
 
       @media screen and (min-width: 768px) {
         main {
-          grid-template-columns: repeat(2, minmax(300px, 1fr));
+          grid-template-columns: repeat(5, minmax(300px, 1fr));
           background-color: grey;
         }
 
@@ -34,7 +34,7 @@
           width: 50%;
         }
         article:nth-child(4n-1) {
-          grid-column: 2 / 3;
+          grid-column: span 3;
         }
       }
     </style>
